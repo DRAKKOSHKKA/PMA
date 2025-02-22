@@ -1,9 +1,7 @@
 @echo off
 title Python PIP Updater
-cd..
 echo Installing...
-pip install -r "requ.txt" > tweaks/~temp.tp
-cd tweaks
+pip install -r "requ.txt" > ~temp.tp
 del /q "~temp.tp"
 cls
 echo Installed!
